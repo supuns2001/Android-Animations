@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                View layoutView = findViewById(R.id.main);
+                View layoutView = findViewById(R.id.linearLayout1);
                 Snackbar.make(layoutView , "hello Snack Bar",Snackbar.LENGTH_LONG)
                         .setAction("OK", new View.OnClickListener() {
                             @Override
