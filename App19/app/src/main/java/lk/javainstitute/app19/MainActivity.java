@@ -1,6 +1,7 @@
 package lk.javainstitute.app19;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -37,10 +38,11 @@ public class MainActivity extends AppCompatActivity {
                 LayoutInflater inflater = LayoutInflater.from(MainActivity.this);
                 View view1 = inflater.inflate(R.layout.layout1,null,false);
                 TextView textView1 =  view1.findViewById(R.id.textView);
-                textView1.setText("Hello how are You");
+                textView1.setText("Hello Git Hub");
                 t.setView(view1);
 
                 t.setDuration(Toast.LENGTH_LONG);
+                t.setGravity(Gravity.CENTER,0,0);
                 t.show();
             }
         });
