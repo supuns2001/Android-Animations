@@ -5,7 +5,7 @@
         android:font="@font/dancing_script"
         android:fontStyle="normal"
         android:fontWeight="400"
-        >
+        />
 
-    </font>
+
 </font-family>

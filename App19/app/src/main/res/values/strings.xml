@@ -3,4 +3,5 @@
     <string name="button1">Custom Toast</string>
     <string name="button2">Custom Alert</string>
     <string name="button4">Snack Bar</string>
+    <string name="button_x1">Animation 01</string>
 </resources>
